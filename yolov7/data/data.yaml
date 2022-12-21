@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['cardboard', 'metal', 'rigid_plastic', 'soft_plastic']
+
+roboflow:
+  workspace: kaitlyn-fichtner-nv5um
+  project: lab-trash-v2.0
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kaitlyn-fichtner-nv5um/lab-trash-v2.0/dataset/4
